@@ -1,0 +1,47 @@
+@import "../../style/colors";
+
+.Gallery {
+  width: 100%;
+
+  &__item {
+    position: relative;
+    width: calc(33.33% - 24px);
+    display: block;
+    margin: 0 12px 24px;
+
+    &:hover {
+      .Gallery__description {
+        opacity: 1;
+      }
+    }
+  }
+
+  &__description {
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    transition: opacity 0.3s ease;
+    padding: 0 20px;
+    opacity: 0;
+  }
+
+  &__description-title {
+    font-size: 18px;
+  }
+
+  &__image {
+    width: 100%;
+    display: block;
+    transition: opacity 1s ease, transform 0.7s ease;
+    opacity: 0;
+    transform: translateY(-20px);
+
+    &--visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

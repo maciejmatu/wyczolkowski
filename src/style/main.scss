@@ -1,0 +1,16 @@
+@import 'resources';
+
+@import url('https://fonts.googleapis.com/css?family=PlayfairDisplay|Lato');
+@import '~normalize.css/normalize.css';
+
+*,
+*::before,
+*::after {
+  font-family: $font-primary;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-secondary {
+  font-family: $font-secondary;
+}
