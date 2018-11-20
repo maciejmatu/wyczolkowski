@@ -3,10 +3,10 @@ import { graphql } from "gatsby";
 import Page from "../../components/Page";
 import "./style.scss";
 
-function BlogPost({ data: { markdownRemark } }) {
+function PaintingPost({ data: { markdownRemark } }) {
   return (
     <Page>
-      <h1>{markdownRemark.frontmatter.title}</h1>
+      <h1 className="Painting__title">{markdownRemark.frontmatter.title}</h1>
       <img
         className="Painting__image"
         alt=""
@@ -29,4 +29,4 @@ export const pageQuery = graphql`
   }
 `;
 
-export default BlogPost;
+export default PaintingPost;

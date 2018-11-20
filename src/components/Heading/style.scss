@@ -1,7 +1,9 @@
-@import '../../style/colors';
+@import "../../style/colors";
 
 .Heading {
-  margin-bottom: 60px;
+  padding-bottom: 60px;
+  position: relative;
+  overflow: hidden;
 
   &__title {
     margin: 70px 0;
@@ -26,11 +28,11 @@
     position: relative;
 
     &::after {
-      content: '';
+      content: "";
       width: 3px;
       height: 3px;
       background-color: $color-black;
-      opacity: .5;
+      opacity: 0.5;
       display: block;
       position: absolute;
       right: 0;
@@ -53,7 +55,7 @@
     opacity: 0.4;
     text-decoration: none;
     color: $color-dark;
-    transition: opacity .3s ease;
+    transition: opacity 0.3s ease;
     padding: 12px;
     display: block;
     margin: 0 24px;
@@ -67,4 +69,3 @@
     }
   }
 }
-

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { graphql, Link } from "gatsby";
 import Masonry from "react-masonry-component";
+import cn from "classnames";
 import Page from "../../components/Page";
 import "./style.scss";
 
@@ -15,7 +16,7 @@ class IndexPage extends Component {
     }
   };
 
-  get paintings() {
+  getPaintings() {
     return this.props.data.allMarkdownRemark.edges.filter(
       post => post.node.frontmatter.templateKey === "painting-post.template"
     );
@@ -29,17 +30,23 @@ class IndexPage extends Component {
           options={{ transitionDuration: 0 }}
           onLayoutComplete={this.showPaintings}
         >
-          {this.paintings.map((painting, id) => {
+          {this.getPaintings().map((painting, id) => {
             const {
               node: { fields, frontmatter }
             } = painting;
 
             return (
-              <Link to={fields.slug} key={id} className="Gallery__item">
+              <Link
+                to={fields.slug}
+                key={id}
+                className={cn(
+                  "Gallery__item",
+                  this.state.showPaintings && "Gallery__item--visible"
+                )}
+                style={{ transitionDelay: `${50 * id}ms` }}
+              >
                 <img
-                  className={`Gallery__image ${this.state.showPaintings &&
-                    "Gallery__image--visible"}`}
-                  style={{ transitionDelay: `${50 * id}ms` }}
+                  className={"Gallery__image"}
                   alt=""
                   src={frontmatter.image}
                 />

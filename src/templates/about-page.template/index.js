@@ -6,7 +6,11 @@ import "./style.scss";
 function AboutPage({ data }) {
   return (
     <Page>
-      <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
+      <h1 className="About__title">{data.markdownRemark.frontmatter.title}</h1>
+      <div
+        className="About__content"
+        dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
+      />
     </Page>
   );
 }
