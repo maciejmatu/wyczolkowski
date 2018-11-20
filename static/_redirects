@@ -1,2 +1,2 @@
 # redirect all requests to index.html
-/* / 302
+/* / 200
