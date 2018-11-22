@@ -1,3 +1,0 @@
----
-templateKey: "gallery-page.template"
----

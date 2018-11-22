@@ -1,1 +1,0 @@
-import "netlify-cms";
