@@ -1,5 +1,6 @@
 ---
 templateKey: about-page.template
+left_image: /img/wyczolkowski.jpg
 title: O mnie
 left_image: "/static/img/wyczolkowski.jpg"
 ---
