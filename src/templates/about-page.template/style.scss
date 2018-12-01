@@ -3,7 +3,7 @@
 .About {
   &__content {
     line-height: 1.7;
-    width: calc(60% - 40px);
+    width: calc(50% + 48px);
     margin: 0 auto;
     font-weight: 300;
     text-align: justify;
@@ -16,7 +16,7 @@
 
   &__image {
     margin-top: 8px;
-    width: 40%;
+    width: calc(50% - 80px);
     margin: 0 auto 40px;
     float: left;
   }

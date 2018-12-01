@@ -7,7 +7,10 @@ function AboutPage({ data }) {
   return (
     <Page>
       <h1 className="About__title">{data.markdownRemark.frontmatter.title}</h1>
-      <img className="About__image" src="/img/wyczolkowski.jpg" />
+      <img
+        className="About__image"
+        src={data.markdownRemark.frontmatter.left_image}
+      />
       <div
         className="About__content"
         dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
@@ -22,6 +25,7 @@ export const query = graphql`
       html
       frontmatter {
         title
+        left_image
       }
     }
   }
