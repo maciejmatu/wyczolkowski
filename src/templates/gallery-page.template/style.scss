@@ -51,6 +51,7 @@
   &__item {
     transition: opacity 1s ease;
     opacity: 0;
+    cursor: pointer;
     pointer-events: none;
 
     &--visible {

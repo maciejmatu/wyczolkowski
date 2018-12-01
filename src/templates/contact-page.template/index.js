@@ -4,9 +4,15 @@ import Page from "../../components/Page";
 import "./style.scss";
 
 function ContactPage({ data }) {
+  const { email, phone, image } = data.markdownRemark.frontmatter;
   return (
     <Page>
-      <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
+      <div className="Contact__content">
+        <a href={`mailto:${email}`}>{email}</a>
+        <a href={`tel:${phone}`}>{phone}</a>
+      </div>
+      <img src={image} className="Contact__image" />
+      {/* <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} /> */}
     </Page>
   );
 }
@@ -17,6 +23,9 @@ export const query = graphql`
       html
       frontmatter {
         title
+        phone
+        email
+        image
       }
     }
   }

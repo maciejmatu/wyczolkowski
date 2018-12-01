@@ -1,9 +1,11 @@
 import React, { Component } from "react";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 import Masonry from "react-masonry-component";
 import cn from "classnames";
 import Page from "../../components/Page";
 import "./style.scss";
+import Lightbox from "react-image-lightbox";
+import "react-image-lightbox/style.css";
 
 class IndexPage extends Component {
   state = {
@@ -22,9 +24,38 @@ class IndexPage extends Component {
     );
   }
 
+  gotoPrevLightboxImage = () => {
+    this.setState(({ currentImage }) => ({ currentImage: currentImage - 1 }));
+  };
+
+  gotoNextLightboxImage = () => {
+    this.setState(({ currentImage }) => ({ currentImage: currentImage + 1 }));
+  };
+
+  closeLightbox = () => {
+    this.setState({ isOpen: false });
+  };
+
+  openImage = index => {
+    this.setState({ isOpen: true, currentImage: index });
+  };
+
   render() {
+    const images = this.getPaintings().map(painting => ({
+      src: painting.node.frontmatter.image
+    }));
+
     return (
       <Page>
+        {this.state.isOpen && (
+          <Lightbox
+            imageCaption={<div>This is my caption</div>}
+            mainSrc={images[this.state.currentImage].src}
+            onMovePrevRequest={this.gotoPrevLightboxImage}
+            onMoveNextRequest={this.gotoNextLightboxImage}
+            onCloseRquest={this.closeLightbox}
+          />
+        )}
         <Masonry
           className="Gallery"
           options={{ transitionDuration: 0 }}
@@ -32,13 +63,14 @@ class IndexPage extends Component {
         >
           {this.getPaintings().map((painting, id) => {
             const {
-              node: { fields, frontmatter }
+              node: { frontmatter }
             } = painting;
 
             return (
-              <Link
-                to={fields.slug}
+              <div
+                // to={fields.slug}
                 key={id}
+                onClick={() => this.openImage(id)}
                 className={cn(
                   "Gallery__item",
                   this.state.showPaintings && "Gallery__item--visible"
@@ -61,10 +93,12 @@ class IndexPage extends Component {
                     {frontmatter.measures}
                   </div>
                   <div className="Gallery__description-text">
-                    PLN {frontmatter.price_pln}.00
+                    {frontmatter.sold
+                      ? "Obraz sprzedany"
+                      : `PLN ${frontmatter.price_pln}.00`}
                   </div>
                 </div>
-              </Link>
+              </div>
             );
           })}
         </Masonry>
@@ -87,6 +121,7 @@ export const query = graphql`
             image
             description
             measures
+            sold
             price_pln
             templateKey
           }

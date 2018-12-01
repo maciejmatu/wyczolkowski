@@ -1,0 +1,23 @@
+.Contact {
+  &__content {
+    a {
+      text-align: center;
+      display: block;
+      letter-spacing: 1px;
+      text-decoration: none;
+      font-size: 16px;
+      color: black;
+
+      + a {
+        margin-top: 20px;
+      }
+    }
+  }
+
+  &__image {
+    width: 50%;
+    margin-top: 20px;
+    display: block;
+    margin: 40px auto 20px;
+  }
+}
