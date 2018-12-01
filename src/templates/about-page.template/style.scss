@@ -2,16 +2,23 @@
 
 .About {
   &__content {
-    line-height: 1.5;
-    max-width: 80%;
+    line-height: 1.7;
+    width: calc(60% - 40px);
     margin: 0 auto;
     font-weight: 300;
-    text-align: center;
+    text-align: justify;
+    float: right;
 
-    .gatsby-resp-image-link {
-      max-width: 50%;
-      margin: 0 auto 40px;
+    p {
+      margin-top: 0;
     }
+  }
+
+  &__image {
+    margin-top: 8px;
+    width: 40%;
+    margin: 0 auto 40px;
+    float: left;
   }
 
   &__title {
