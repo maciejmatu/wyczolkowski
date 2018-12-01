@@ -4,8 +4,7 @@ import Masonry from "react-masonry-component";
 import cn from "classnames";
 import Page from "../../components/Page";
 import "./style.scss";
-import Lightbox from "react-image-lightbox";
-import "react-image-lightbox/style.css";
+// import Lightbox from "react-image-lightbox";
 
 class IndexPage extends Component {
   state = {
@@ -47,15 +46,16 @@ class IndexPage extends Component {
 
     return (
       <Page>
-        {this.state.isOpen && (
+        {/* {this.state.isOpen && (
           <Lightbox
+            enableZoom={false}
             imageCaption={<div>This is my caption</div>}
             mainSrc={images[this.state.currentImage].src}
             onMovePrevRequest={this.gotoPrevLightboxImage}
             onMoveNextRequest={this.gotoNextLightboxImage}
-            onCloseRquest={this.closeLightbox}
+            onCloseRequest={this.closeLightbox}
           />
-        )}
+        )} */}
         <Masonry
           className="Gallery"
           options={{ transitionDuration: 0 }}

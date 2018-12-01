@@ -2,6 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=PlayfairDisplay|Lato:300,400,600");
 @import "~normalize.css/normalize.css";
+// @import "~react-image-lightbox/style.css";
 
 *,
 *::before,
@@ -13,4 +14,31 @@
 
 .font-secondary {
   font-family: $font-secondary;
+}
+
+.ril-caption.ril__caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  height: 80px;
+}
+
+.ril__captionContent {
+  padding: 0 !important;
+}
+
+// .ril__inner {
+//   position: absolute;
+//   top: 80px;
+//   left: 80px;
+//   right: 80px;
+//   bottom: 80px;
+// }
+
+img.ril__image {
+  top: 80px;
+  left: 80px;
+  right: 80px;
+  bottom: 80px;
 }

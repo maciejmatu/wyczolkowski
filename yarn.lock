@@ -10413,14 +10413,6 @@ react-hot-loader@^4.0.0, react-hot-loader@^4.1.0:
     react-lifecycles-compat "^3.0.4"
     shallowequal "^1.0.2"
 
-react-image-lightbox@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/react-image-lightbox/-/react-image-lightbox-5.0.0.tgz#0c19aa8a43abf41262cbe082c779cc01f6334b5f"
-  integrity sha512-2ivXwbpGeknDYb0zkfdeitXUvHCIFjLH/sHEBRSQoEV7hxVIXYpeSZxAPL2hJYoyGxBWzbcbLw4uJXXuD11kOw==
-  dependencies:
-    prop-types "^15.6.1"
-    react-modal "^3.4.4"
-
 react-immutable-proptypes@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/react-immutable-proptypes/-/react-immutable-proptypes-2.1.0.tgz#023d6f39bb15c97c071e9e60d00d136eac5fa0b4"
@@ -10445,7 +10437,7 @@ react-masonry-component@^6.2.1:
     masonry-layout "^4.2.0"
     prop-types "^15.5.8"
 
-react-modal@^3.1.5, react-modal@^3.4.4:
+react-modal@^3.1.5:
   version "3.6.1"
   resolved "https://registry.yarnpkg.com/react-modal/-/react-modal-3.6.1.tgz#54d27a1ec2b493bbc451c7efaa3557b6af82332d"
   dependencies:
