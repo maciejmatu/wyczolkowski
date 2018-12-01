@@ -14,16 +14,7 @@ function Heading({ title }) {
               activeClassName="Heading__nav-link--active"
               to="/"
             >
-              Gallery
-            </Link>
-          </li>
-          <li className="Heading__nav-item">
-            <Link
-              className="Heading__nav-link"
-              activeClassName="Heading__nav-link--active"
-              to="/contact"
-            >
-              Contact
+              Galeria
             </Link>
           </li>
           <li className="Heading__nav-item">
@@ -32,7 +23,16 @@ function Heading({ title }) {
               activeClassName="Heading__nav-link--active"
               to="/about"
             >
-              About
+              O mnie
+            </Link>
+          </li>
+          <li className="Heading__nav-item">
+            <Link
+              className="Heading__nav-link"
+              activeClassName="Heading__nav-link--active"
+              to="/contact"
+            >
+              Kontakt
             </Link>
           </li>
         </ul>

@@ -4,7 +4,7 @@ import Masonry from "react-masonry-component";
 import cn from "classnames";
 import Page from "../../components/Page";
 import "./style.scss";
-// import Lightbox from "react-image-lightbox";
+// import Lightbox from "./";
 
 class IndexPage extends Component {
   state = {
