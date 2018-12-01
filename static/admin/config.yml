@@ -27,9 +27,9 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Image", name: "image", widget: "image" }
-      - { label: "Price", name: "price", widget: "number" }
+      - { label: "Price PLN", name: "price_pln", widget: "number" }
       - { label: "Measures", name: "measures", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Description", name: "description", widget: "string" }
 
   - name: "pages"
     label: "Pages"

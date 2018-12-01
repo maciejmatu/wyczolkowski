@@ -54,6 +54,15 @@ class IndexPage extends Component {
                   <h4 className="Gallery__description-title">
                     {frontmatter.title}
                   </h4>
+                  <div className="Gallery__description-text">
+                    {frontmatter.description}
+                  </div>
+                  <div className="Gallery__description-text">
+                    {frontmatter.measures}
+                  </div>
+                  <div className="Gallery__description-text">
+                    PLN {frontmatter.price_pln}.00
+                  </div>
                 </div>
               </Link>
             );
@@ -66,7 +75,7 @@ class IndexPage extends Component {
 
 export const query = graphql`
   query IndexQuery {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: ASC }) {
       edges {
         node {
           id
@@ -76,6 +85,9 @@ export const query = graphql`
           frontmatter {
             title
             image
+            description
+            measures
+            price_pln
             templateKey
           }
         }

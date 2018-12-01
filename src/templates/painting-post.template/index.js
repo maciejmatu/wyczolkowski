@@ -20,7 +20,6 @@ export const pageQuery = graphql`
   query PaintingByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
-      html
       frontmatter {
         title
         image
