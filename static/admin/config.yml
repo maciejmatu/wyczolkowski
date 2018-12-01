@@ -27,8 +27,19 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Image", name: "image", widget: "image" }
-      - { label: "Is Sold", name: "sold", widget: "boolean", default: false }
-      - { label: "Price PLN", name: "price_pln", widget: "number" }
+      - {
+          label: "Is Sold",
+          name: "sold",
+          widget: "boolean",
+          required: false,
+          default: false,
+        }
+      - {
+          label: "Price PLN",
+          name: "price_pln",
+          required: false,
+          widget: "number",
+        }
       - { label: "Measures", name: "measures", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
 
