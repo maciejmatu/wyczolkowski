@@ -1,0 +1,11 @@
+---
+templateKey: painting-post.template
+date: 2018-12-02T09:17:32.997Z
+title: Kutry w Jarosławcu II
+image: /img/img_3763-edit.jpg
+sold: false
+price_pln: '500'
+measures: 40 x 50 cm
+description: Olej na płycie pilśniowej
+---
+
