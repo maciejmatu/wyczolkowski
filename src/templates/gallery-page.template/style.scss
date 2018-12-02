@@ -1,4 +1,5 @@
 @import "../../style/colors";
+@import "../../style/variables";
 
 .Gallery {
   width: 100%;
@@ -8,6 +9,10 @@
     width: calc(33.33% - 24px);
     display: block;
     margin: 0 12px 24px;
+
+    @media #{$screen-md} {
+      width: calc(100% - 24px);
+    }
 
     &:hover {
       .Gallery__description {

@@ -1,9 +1,14 @@
 @import "../../style/colors";
+@import "../../style/variables";
 
 .Heading {
   padding-bottom: 60px;
   position: relative;
   overflow: hidden;
+
+  @media #{$screen-md} {
+    padding-bottom: 40px;
+  }
 
   &__title {
     margin: 70px 0;
@@ -14,6 +19,12 @@
     letter-spacing: 10px;
     text-align: center;
     color: $color-dark;
+
+    @media #{$screen-md} {
+      font-size: 24px;
+      line-height: 1.6;
+      margin: 40px 0;
+    }
   }
 
   &__nav-list {
@@ -22,12 +33,21 @@
     list-style: none;
     display: flex;
     justify-content: center;
+
+    @media #{$screen-md} {
+      margin: 0 -12px;
+    }
   }
 
   &__nav-item {
     position: relative;
 
     &::after {
+      @media #{$screen-md} {
+        width: 2px;
+        height: 2px;
+      }
+
       content: "";
       width: 3px;
       height: 3px;
@@ -62,6 +82,12 @@
 
     &:hover {
       opacity: 1;
+    }
+
+    @media #{$screen-md} {
+      margin: 0 6px;
+      font-size: 12px;
+      padding: 6px;
     }
 
     &--active {

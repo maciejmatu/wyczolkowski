@@ -9,6 +9,13 @@
     text-align: justify;
     float: right;
 
+    @media #{$screen-md} {
+      text-align: left;
+      float: left;
+      width: 90%;
+      margin-left: 5%;
+    }
+
     p {
       margin-top: 0;
     }
@@ -19,6 +26,11 @@
     width: calc(50% - 80px);
     margin: 0 auto 40px;
     float: left;
+
+    @media #{$screen-md} {
+      width: 90%;
+      margin-left: 5%;
+    }
   }
 
   &__title {
@@ -27,5 +39,9 @@
     letter-spacing: 1px;
     font-weight: 400;
     margin: 0 0 40px;
+
+    @media #{$screen-md} {
+      font-size: 24px;
+    }
   }
 }
