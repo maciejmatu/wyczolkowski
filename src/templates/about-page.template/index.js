@@ -9,7 +9,9 @@ function AboutPage({ data }) {
       <h1 className="About__title">{data.markdownRemark.frontmatter.title}</h1>
       <img
         className="About__image"
-        src={data.markdownRemark.frontmatter.left_image}
+        src={
+          data.markdownRemark.frontmatter.left_image.childImageSharp.fluid.src
+        }
       />
       <div
         className="About__content"
@@ -25,7 +27,13 @@ export const query = graphql`
       html
       frontmatter {
         title
-        left_image
+        left_image {
+          childImageSharp {
+            fluid(maxWidth: 700) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

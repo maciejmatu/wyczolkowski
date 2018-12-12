@@ -12,6 +12,10 @@
 
     @media #{$screen-md} {
       width: calc(100% - 24px);
+
+      .Gallery__description {
+        opacity: 0 !important;
+      }
     }
 
     &:hover {

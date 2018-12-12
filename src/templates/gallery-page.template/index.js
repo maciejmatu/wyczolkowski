@@ -42,16 +42,6 @@ class IndexPage extends Component {
   render() {
     return (
       <Page>
-        {/* {this.state.isOpen && (
-          <Lightbox
-            enableZoom={false}
-            imageCaption={<div>This is my caption</div>}
-            mainSrc={images[this.state.currentImage].src}
-            onMovePrevRequest={this.gotoPrevLightboxImage}
-            onMoveNextRequest={this.gotoNextLightboxImage}
-            onCloseRequest={this.closeLightbox}
-          />
-        )} */}
         {this.state.isOpen && (
           <Modal
             handleClose={this.closeLightbox}
@@ -70,7 +60,6 @@ class IndexPage extends Component {
 
             return (
               <div
-                // to={fields.slug}
                 key={id}
                 onClick={() => this.openImage(id)}
                 className={cn(
@@ -82,7 +71,7 @@ class IndexPage extends Component {
                 <img
                   className={"Gallery__image"}
                   alt=""
-                  src={frontmatter.image}
+                  src={frontmatter.image.childImageSharp.fluid.src}
                 />
                 <div className="Gallery__description">
                   <h4 className="Gallery__description-title">
@@ -120,7 +109,14 @@ export const query = graphql`
           }
           frontmatter {
             title
-            image
+            image {
+              childImageSharp {
+                fluid(maxWidth: 1200) {
+                  ...GatsbyImageSharpFluid
+                  originalImg
+                }
+              }
+            }
             description
             measures
             sold

@@ -11,7 +11,7 @@ function ContactPage({ data }) {
         <a href={`mailto:${email}`}>{email}</a>
         <a href={`tel:${phone}`}>{phone}</a>
       </div>
-      <img src={image} className="Contact__image" />
+      <img src={image.childImageSharp.fluid.src} className="Contact__image" />
       {/* <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} /> */}
     </Page>
   );
@@ -25,7 +25,13 @@ export const query = graphql`
         title
         phone
         email
-        image
+        image {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

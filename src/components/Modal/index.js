@@ -3,7 +3,6 @@ import "./style.scss";
 
 class Modal extends React.Component {
   render() {
-    console.log(this.props);
     const {
       node: { frontmatter }
     } = this.props;
@@ -12,9 +11,17 @@ class Modal extends React.Component {
       <div className="Modal">
         <div className="Modal__close" onClick={this.props.handleClose} />
         <div className="Modal__inner">
-          <div className="Modal__image-container">
-            <img className="Modal__image" src={frontmatter.image} />
-          </div>
+          <a
+            className="Modal__image-container"
+            href={frontmatter.image.childImageSharp.fluid.originalImg}
+            target="_blank"
+            rel="noopener"
+          >
+            <img
+              className="Modal__image"
+              src={frontmatter.image.childImageSharp.fluid.src}
+            />
+          </a>
           <div className="Modal__description">
             <div className="Modal__measures">{frontmatter.measures}</div>
 

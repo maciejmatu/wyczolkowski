@@ -4,16 +4,7 @@ import Page from "../../components/Page";
 import "./style.scss";
 
 function PaintingPost({ data: { markdownRemark } }) {
-  return (
-    <Page>
-      <h1 className="Painting__title">{markdownRemark.frontmatter.title}</h1>
-      <img
-        className="Painting__image"
-        alt=""
-        src={markdownRemark.frontmatter.image}
-      />
-    </Page>
-  );
+  return <Page />;
 }
 
 export const pageQuery = graphql`
@@ -22,7 +13,6 @@ export const pageQuery = graphql`
       id
       frontmatter {
         title
-        image
       }
     }
   }
