@@ -62,6 +62,7 @@
     opacity: 0;
     cursor: pointer;
     pointer-events: none;
+    -webkit-tap-highlight-color: transparent;
 
     &--visible {
       opacity: 1;
