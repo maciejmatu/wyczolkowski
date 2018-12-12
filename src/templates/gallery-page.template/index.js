@@ -3,8 +3,8 @@ import { graphql } from "gatsby";
 import Masonry from "react-masonry-component";
 import cn from "classnames";
 import Page from "../../components/Page";
+import Modal from "../../components/Modal";
 import "./style.scss";
-// import Lightbox from "./";
 
 class IndexPage extends Component {
   state = {
@@ -40,10 +40,6 @@ class IndexPage extends Component {
   };
 
   render() {
-    const images = this.getPaintings().map(painting => ({
-      src: painting.node.frontmatter.image
-    }));
-
     return (
       <Page>
         {/* {this.state.isOpen && (
@@ -56,6 +52,12 @@ class IndexPage extends Component {
             onCloseRequest={this.closeLightbox}
           />
         )} */}
+        {this.state.isOpen && (
+          <Modal
+            handleClose={this.closeLightbox}
+            {...this.getPaintings()[this.state.currentImage]}
+          />
+        )}
         <Masonry
           className="Gallery"
           options={{ transitionDuration: 0 }}
