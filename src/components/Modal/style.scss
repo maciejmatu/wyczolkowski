@@ -1,7 +1,7 @@
 @import "../../style/colors";
 @import "../../style/variables";
 
-$_description-height: 120px;
+$_description-height: 160px;
 $_description-height-mobile: 180px;
 
 .Modal {
@@ -93,25 +93,62 @@ $_description-height-mobile: 180px;
     word-spacing: 2px;
   }
 
-  &__measures {
+  &__arrow {
+    position: absolute;
+    top: 50%;
+    width: 25px;
+    height: 50px;
+    transform: translate(0, -50%);
+    cursor: pointer;
+
     @media #{$screen-md} {
-      order: 2;
+      top: 84%;
+    }
+
+    &::before,
+    &::after {
+      content: "";
+      width: 20px;
+      height: 2px;
+      background: white;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      top: 50%;
+      transform: translate(0, -7px) rotate(-45deg);
+    }
+
+    &::after {
+      transform: translate(0, 6px) rotate(45deg);
+    }
+
+    &--next {
+      right: 20px;
+      transform: translate(0, -50%) rotate(180deg);
+    }
+
+    &--prev {
+      left: 20px;
     }
   }
+
+  // &__measures {
+  //     order: 2;
+  // }
 
   &__description {
     height: $_description-height;
     padding: 20px 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
     color: white;
 
     @media #{$screen-md} {
       height: $_description-height-mobile;
-      flex-direction: column;
-      justify-content: center;
     }
   }
 }

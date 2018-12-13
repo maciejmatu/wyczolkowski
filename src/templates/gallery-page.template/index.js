@@ -45,6 +45,10 @@ class IndexPage extends Component {
         {this.state.isOpen && (
           <Modal
             handleClose={this.closeLightbox}
+            hasNext={!!this.getPaintings()[this.state.currentImage + 1]}
+            hasPrev={!!this.getPaintings()[this.state.currentImage - 1]}
+            nextImage={this.gotoNextLightboxImage}
+            prevImage={this.gotoPrevLightboxImage}
             {...this.getPaintings()[this.state.currentImage]}
           />
         )}
@@ -69,7 +73,7 @@ class IndexPage extends Component {
                 style={{ transitionDelay: `${50 * id}ms` }}
               >
                 <img
-                  className={"Gallery__image"}
+                  className="Gallery__image"
                   alt=""
                   src={frontmatter.image.childImageSharp.fluid.src}
                 />
