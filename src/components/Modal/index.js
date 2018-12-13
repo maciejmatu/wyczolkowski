@@ -23,17 +23,19 @@ class Modal extends React.Component {
           />
         )}
         <div className="Modal__inner">
-          <a
-            className="Modal__image-container"
-            href={frontmatter.image.childImageSharp.fluid.originalImg}
-            target="_blank"
-            rel="noopener"
-          >
-            <img
-              className="Modal__image"
-              src={frontmatter.image.childImageSharp.fluid.src}
-            />
-          </a>
+          <div className="Modal__image-container">
+            <a
+              className="Modal__image-link"
+              href={frontmatter.image.childImageSharp.fluid.originalImg}
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                className="Modal__image"
+                src={frontmatter.image.childImageSharp.fluid.src}
+              />
+            </a>
+          </div>
           <div className="Modal__description">
             <div className="Modal__text">
               <h4 className="Modal__text-title">{frontmatter.title}</h4>
