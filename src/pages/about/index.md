@@ -11,4 +11,4 @@ Urodziłem się w podwarszawskiej Zielonce w 1982 roku. Moja przygoda z malarstw
 
 
 
-W 2011 roku Ukończyłem Łódzką politechnikę na wydziale Architektury. Studia pomogły mi w obserwacji i analizie otoczenia, patrzenia perspektywicznego. Posługuję się farbami akrylowymi oraz olejnymi, często mieszam te dwie techniki. Jednak medium, którym jest olej sprawia mi najwięcej radości. Moje prace przedstawiają pejzaże, martwe natury, architekturę oraz abstrakcje. Jednak to pejzaż jest najbliższy mojemu sercu.
+W 2011 roku ukończyłem Łódzką politechnikę na wydziale Architektury. Studia pomogły mi w obserwacji i analizie otoczenia, patrzenia perspektywicznego. Posługuję się farbami akrylowymi oraz olejnymi, często mieszam te dwie techniki. Jednak medium, którym jest olej sprawia mi najwięcej radości. Moje prace przedstawiają pejzaże, martwe natury, architekturę oraz abstrakcje. Jednak to pejzaż jest najbliższy mojemu sercu.
