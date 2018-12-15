@@ -38,7 +38,12 @@ class Modal extends React.Component {
           </div>
           <div className="Modal__description">
             <div className="Modal__text">
-              <h4 className="Modal__text-title">{frontmatter.title}</h4>
+              <h4 className="Modal__text-title">
+                {frontmatter.title}
+                {frontmatter.copy && (
+                  <h6 className="Modal__text-copy">Kopia</h6>
+                )}
+              </h4>
               <div className="Modal__text-content">
                 {frontmatter.description}
               </div>

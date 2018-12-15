@@ -80,6 +80,9 @@ class IndexPage extends Component {
                 <div className="Gallery__description">
                   <h4 className="Gallery__description-title">
                     {frontmatter.title}
+                    {frontmatter.copy && (
+                      <h6 className="Gallery__description-copy">Kopia</h6>
+                    )}
                   </h4>
                   <div className="Gallery__description-text">
                     {frontmatter.description}
@@ -121,6 +124,7 @@ export const query = graphql`
                 }
               }
             }
+            copy
             description
             measures
             sold

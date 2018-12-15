@@ -41,10 +41,17 @@
     justify-content: center;
   }
 
+  &__description-copy {
+    margin: 8px 0 0;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #94d0ef;
+  }
+
   &__description-title {
     font-size: 22px;
     font-weight: 400;
-    margin: 0 0 16px 0;
+    margin: 0 0 12px 0;
     color: #94d0ef;
   }
 

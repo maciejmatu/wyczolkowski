@@ -35,6 +35,13 @@ collections:
           default: false,
         }
       - {
+          label: "Is a copy",
+          name: "copy",
+          widget: "boolean",
+          required: false,
+          default: false,
+        }
+      - {
           label: "Price PLN",
           name: "price_pln",
           required: false,

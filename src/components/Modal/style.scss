@@ -82,6 +82,13 @@ $_description-height-mobile: 180px;
     color: #94d0ef;
   }
 
+  &__text-copy {
+    margin: 8px 0 0;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #94d0ef;
+  }
+
   &__price,
   &__measures,
   &__text-content {
@@ -132,10 +139,6 @@ $_description-height-mobile: 180px;
       left: 25px;
     }
   }
-
-  // &__measures {
-  //     order: 2;
-  // }
 
   &__description {
     height: $_description-height;
