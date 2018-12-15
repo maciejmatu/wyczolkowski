@@ -10,7 +10,10 @@ function Page({ children }) {
       query={query}
       render={({ site }) => (
         <div className="Page">
-          <Helmet title={site.siteMetadata.title} />
+          <Helmet>
+            <title>{site.siteMetadata.title}</title>
+            <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+          </Helmet>
           <Heading title={site.siteMetadata.title} />
           {children}
         </div>
