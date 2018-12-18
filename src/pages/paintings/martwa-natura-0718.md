@@ -6,7 +6,7 @@ image: /img/img_3775-edit.jpg
 sold: false
 copy: false
 price_pln: '500'
-measures: 40x50
+measures: 40 x 50 cm
 description: Olej na płycie pilśniowej
 ---
 
