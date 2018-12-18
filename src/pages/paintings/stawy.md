@@ -1,7 +1,7 @@
 ---
 templateKey: painting-post.template
 date: 2018-12-02T08:56:49.027Z
-title: Stawy
+title: Stawy 0917
 image: /img/img_3723-edit.jpg
 sold: false
 price_pln: '750'
