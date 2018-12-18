@@ -7,6 +7,6 @@ sold: false
 copy: false
 price_pln: '1000'
 measures: 50 x 70 cm
-description: olej na płótnie
+description: Olej na płótnie
 ---
 
