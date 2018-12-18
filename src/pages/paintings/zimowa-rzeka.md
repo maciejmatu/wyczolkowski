@@ -1,7 +1,7 @@
 ---
 templateKey: painting-post.template
 date: 2018-12-02T09:13:02.591Z
-title: Zimowa rzeka
+title: Zimowa rzeka 0215
 image: /img/img_3734-edit.jpg
 sold: false
 price_pln: '500'
