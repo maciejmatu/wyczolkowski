@@ -3,6 +3,12 @@ module.exports = {
     title: "Mateusz Wyczółkowski"
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: "UA-131134832-1"
+      }
+    },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sass",
     {

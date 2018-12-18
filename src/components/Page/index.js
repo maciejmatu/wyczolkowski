@@ -12,6 +12,7 @@ function Page({ children }) {
         <div className="Page">
           <Helmet>
             <title>{site.siteMetadata.title}</title>
+            <meta property="og:image" content="/fb_preview.jpg" />
             <link rel="shortcut icon" type="image/png" href="/favicon.png" />
           </Helmet>
           <Heading title={site.siteMetadata.title} />
