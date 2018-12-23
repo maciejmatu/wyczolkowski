@@ -41,10 +41,12 @@
     justify-content: center;
   }
 
-  &__description-copy {
+  &__description-copy,
+  &__description-reserved {
     margin: 8px 0 0;
     text-transform: uppercase;
     font-size: 10px;
+    font-weight: bold;
     color: #94d0ef;
   }
 
@@ -53,6 +55,10 @@
     font-weight: 400;
     margin: 0 0 12px 0;
     color: #94d0ef;
+  }
+
+  &__description-reserved {
+    color: #ffa561;
   }
 
   &__description-text {
