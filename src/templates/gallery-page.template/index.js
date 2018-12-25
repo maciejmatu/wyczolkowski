@@ -77,7 +77,7 @@ class IndexPage extends Component {
                 <img
                   className="Gallery__image"
                   alt=""
-                  itemProp="photo"
+                  itemProp="image"
                   src={frontmatter.image.childImageSharp.fluid.src}
                 />
                 <div className="Gallery__description">
