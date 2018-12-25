@@ -71,20 +71,29 @@ class IndexPage extends Component {
                   this.state.showPaintings && "Gallery__item--visible"
                 )}
                 style={{ transitionDelay: `${50 * id}ms` }}
+                itemScope
+                itemType="http://schema.org/Painting"
               >
                 <img
                   className="Gallery__image"
                   alt=""
+                  itemProp="photo"
                   src={frontmatter.image.childImageSharp.fluid.src}
                 />
                 <div className="Gallery__description">
-                  <h4 className="Gallery__description-title">
-                    {frontmatter.title}
+                  <span hidden itemProp="author">
+                    Mateusz Wyczolkowski
+                  </span>
+                  <h4 className="Gallery__description-title" itemProp="name">
+                    <span>{frontmatter.title}</span>
                     {frontmatter.copy && (
                       <h6 className="Gallery__description-copy">Kopia</h6>
                     )}
                   </h4>
-                  <div className="Gallery__description-text">
+                  <div
+                    className="Gallery__description-text"
+                    itemProp="material"
+                  >
                     {frontmatter.description}
                   </div>
                   <div className="Gallery__description-text">
