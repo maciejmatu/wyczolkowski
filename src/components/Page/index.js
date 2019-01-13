@@ -16,6 +16,10 @@ function Page({ children }) {
               property="og:image"
               content="http://mateuszwyczolkowski.pl/fb_preview.jpg"
             />
+            <meta
+              name="description"
+              content="Moja przygoda z malarstwem miała swój początek już we wczesnym dzieciństwie. Od najmłodszych lat obserwowałem mojego dziadka Witolda przy pracy twórczej. Dziadek malował pejzaże, kwiaty oraz portrety. Wtedy już podejmowałem pierwsze próby przenoszenia emocji na papier przy użyciu pastel i tuszu. "
+            />
             <link rel="shortcut icon" type="image/png" href="/favicon.png" />
           </Helmet>
           <Heading title={site.siteMetadata.title} />
