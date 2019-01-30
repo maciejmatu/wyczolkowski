@@ -101,7 +101,7 @@ class IndexPage extends Component {
                   </div>
                   <div className="Gallery__description-text">
                     {frontmatter.sold ? (
-                      <React.Fragment>Obraz sprzedany</React.Fragment>
+                      <span className="Gallery__sold">Obraz sprzedany</span>
                     ) : (
                       <React.Fragment>
                         PLN {frontmatter.price_pln}.00
