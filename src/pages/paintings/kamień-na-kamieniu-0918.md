@@ -5,8 +5,8 @@ title: Kamień na kamieniu 0918
 image: /img/img_3772-edit.jpg
 sold: false
 copy: false
-price_pln: '400'
+price_pln: ''
 measures: 40 x 50 cm
-description: Olej na sklejce
+description: olej na sklejce / oil on plywood
 ---
 
