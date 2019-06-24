@@ -5,8 +5,8 @@ title: Martwa natura II 1317
 image: /img/img_3712-edit.jpg
 sold: false
 copy: false
-price_pln: '700'
+price_pln: ''
 measures: 50 x 70 cm
-description: Olej na tekturze
+description: olej na tekturze / oil on cardboard
 ---
 
