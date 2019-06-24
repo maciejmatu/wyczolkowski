@@ -5,8 +5,8 @@ title: Zmiany 1217
 image: /img/img_3720-edit.jpg
 sold: false
 copy: false
-price_pln: '800'
+price_pln: ''
 measures: 50 x 70 cm
-description: Olej na płótnie
+description: olej na płótnie / oil on canvas
 ---
 
