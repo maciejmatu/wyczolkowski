@@ -1,7 +1,7 @@
 ---
 templateKey: painting-post.template
 date: 2019-07-05T15:50:18.202Z
-title: Kozi wierch
+title: 'Kozi wierch, Tatry wysokie'
 image: /img/img_5332.jpg
 reserved: false
 sold: false
