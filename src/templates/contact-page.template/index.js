@@ -9,7 +9,9 @@ function ContactPage({ data }) {
     <Page>
       <div className="Contact__content">
         {store_link && (
-          <a href={store_link}>{store_link.replace(/http.*www./g, "")}</a>
+          <a href={store_link} target="_blank" rel="noopener">
+            {store_link.replace(/http.*www./g, "")}
+          </a>
         )}
 
         <a href={`mailto:${email}`}>{email}</a>
