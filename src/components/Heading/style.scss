@@ -10,8 +10,29 @@
     padding-bottom: 40px;
   }
 
+  &__social {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+    a {
+      text-decoration: none;
+      opacity: 0.4;
+      font-size: 14px;
+      color: black;
+      padding: 0;
+      margin: 0 10px;
+      transition: opacity 0.3s ease;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
   &__title {
     margin: 70px 0;
+    margin-bottom: 16px;
     font-weight: 400;
     font-family: PlayfairDisplay;
     font-size: 36px;
@@ -24,6 +45,7 @@
       font-size: 24px;
       line-height: 1.6;
       margin: 40px 0;
+      margin-bottom: 16px;
     }
   }
 

@@ -4,10 +4,14 @@ import Page from "../../components/Page";
 import "./style.scss";
 
 function ContactPage({ data }) {
-  const { email, phone, image } = data.markdownRemark.frontmatter;
+  const { email, phone, image, store_link } = data.markdownRemark.frontmatter;
   return (
     <Page>
       <div className="Contact__content">
+        {store_link && (
+          <a href={store_link}>{store_link.replace(/http.*www./g, "")}</a>
+        )}
+
         <a href={`mailto:${email}`}>{email}</a>
         <a href={`tel:${phone}`}>{phone}</a>
       </div>
@@ -25,6 +29,7 @@ export const query = graphql`
         title
         phone
         email
+        store_link
         image {
           childImageSharp {
             fluid(maxWidth: 1000) {

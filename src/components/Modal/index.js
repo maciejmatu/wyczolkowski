@@ -53,10 +53,12 @@ class Modal extends React.Component {
 
             <div className="Modal__price">
               {frontmatter.sold ? (
-                <span className="Modal__sold">Obraz sprzedany</span>
+                <span className="Modal__sold">Obraz sprzedany / sold</span>
               ) : (
                 <React.Fragment>
-                  PLN {frontmatter.price_pln}.00
+                  {frontmatter.price_pln &&
+                    !frontmatter.price_pln === "0" &&
+                    `PLN ${frontmatter.price_pln}.00`}
                   {frontmatter.reserved && (
                     <div className="Modal__reserved">Obraz zarezerwowany</div>
                   )}

@@ -12,6 +12,27 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  - name: "configuration"
+    label: "Configuration"
+    editor:
+      preview: false
+    files:
+      - file: "src/config/main.json"
+        label: "Site Configuration"
+        name: "config"
+        fields:
+          - {
+              label: "Facebook Link",
+              name: fb_link,
+              widget: string,
+              required: false,
+            }
+          - {
+              label: "Instagram Link",
+              name: ig_link,
+              widget: string,
+              required: false,
+            }
   - name: "paintings"
     label: "Paintings"
     label_singular: "Painting"
@@ -82,6 +103,12 @@ collections:
               name: "templateKey",
               widget: "hidden",
               default: "contact-page.template",
+            }
+          - {
+              label: "Store Link",
+              name: "store_link",
+              widget: "string",
+              required: false,
             }
           - { label: "Email", name: "email", widget: "string" }
           - { label: "Phone", name: "phone", widget: "string" }
