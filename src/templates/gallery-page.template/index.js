@@ -4,6 +4,7 @@ import Masonry from "react-masonry-component";
 import cn from "classnames";
 import Page from "../../components/Page";
 import Modal from "../../components/Modal";
+import Picture from "../../components/Picture";
 import "./style.scss";
 
 class IndexPage extends Component {
@@ -42,16 +43,18 @@ class IndexPage extends Component {
   render() {
     return (
       <Page>
-        {this.state.isOpen && (
-          <Modal
-            handleClose={this.closeLightbox}
+        <Modal
+          isOpen={this.state.isOpen}
+          handleClose={this.closeLightbox}
+        >
+          <Picture
             hasNext={!!this.getPaintings()[this.state.currentImage + 1]}
             hasPrev={!!this.getPaintings()[this.state.currentImage - 1]}
             nextImage={this.gotoNextLightboxImage}
             prevImage={this.gotoPrevLightboxImage}
             {...this.getPaintings()[this.state.currentImage]}
           />
-        )}
+        </Modal>
         <Masonry
           className="Gallery"
           options={{ transitionDuration: 0 }}
