@@ -32,3 +32,7 @@ img.ril__image {
   right: 80px;
   bottom: 80px;
 }
+
+body.ReactModal__Body--open{
+  overflow: hidden;
+}
