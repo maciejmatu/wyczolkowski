@@ -7,14 +7,20 @@ Urodziłem się w podwarszawskiej Zielonce w 1982 roku. Moja przygoda z malarstw
 
 W 2011 roku ukończyłem Łódzką politechnikę na wydziale Architektury. Studia pomogły mi w obserwacji i analizie otoczenia, patrzenia perspektywicznego. Posługuję się farbami akrylowymi oraz olejnymi, często mieszam te dwie techniki. Jednak medium, którym jest olej sprawia mi najwięcej radości. Moje prace przedstawiają pejzaże, martwe natury, architekturę oraz abstrakcje ale to pejzaż jest najbliższy mojemu sercu.
 
-
-
-
-
-**WYSTAWY:**
+**WYSTAWY ZBIOROWE:**
 
 * 2016 Wystawa poplenerowa w pałacu w Wiechlicach
 * 2017 Wystawa poplenerowa w pałacu w Chrzęsnem
 * 2018 Wystawa poplenerowa w Muzeum Mazowieckim w Płocku
 * 2018 Wystawa poplenerowa w Muzeum Romantyzmu w Opinogórze
 * 2018 Wystawa poplenerowa w Jarosławcu
+* 2019 Wystawa poplenerowa w Domu Kutury w Łebie
+* 2019 Wystawa poplenerowa w Muzeum Ziemiaństwa w pałacu w Dobrzycy
+
+
+
+**WYSTAWY INDYWIDUALNE:**
+
+* 2019 Wystawa w Ośrodku Kultury i Sporty w Zielonce
+* 2019 Wystawa w Bibliotece Na Poziomie  Filia nr 40 MBP w Lublinie
+* 2020 Wystawa w Domu Sztuki Ursynów w Warszawie
