@@ -14,10 +14,8 @@ W 2011 roku ukończyłem Łódzką politechnikę na wydziale Architektury. Studi
 * 2018 Wystawa poplenerowa w Muzeum Mazowieckim w Płocku
 * 2018 Wystawa poplenerowa w Muzeum Romantyzmu w Opinogórze
 * 2018 Wystawa poplenerowa w Jarosławcu
-* 2019 Wystawa poplenerowa w Domu Kutury w Łebie
+* 2019 Wystawa poplenerowa w Domu Kultury w Łebie
 * 2019 Wystawa poplenerowa w Muzeum Ziemiaństwa w pałacu w Dobrzycy
-
-
 
 **WYSTAWY INDYWIDUALNE:**
 
