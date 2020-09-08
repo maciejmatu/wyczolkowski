@@ -16,6 +16,8 @@ W 2011 roku ukończyłem Łódzką politechnikę na wydziale Architektury. Studi
 * 2018 Wystawa poplenerowa w Jarosławcu
 * 2019 Wystawa poplenerowa w Domu Kultury w Łebie
 * 2019 Wystawa poplenerowa w Muzeum Ziemiaństwa w pałacu w Dobrzycy
+* 2020 Wystawa poplenerowa w Iłowie
+* 2020 Wystawa poplenerowa w Muzeum Archeologicznym w Poznaniu
 
 **WYSTAWY INDYWIDUALNE:**
 
