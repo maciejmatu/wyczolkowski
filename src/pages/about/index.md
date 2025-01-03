@@ -24,5 +24,3 @@ W 2011 roku ukończyłem Łódzką politechnikę na wydziale Architektury. Studi
 * 2019 Wystawa w Ośrodku Kultury i Sportu w Zielonce
 * 2019 Wystawa w Bibliotece Na Poziomie  Filia nr 40 MBP w Lublinie
 * 2020 Wystawa w Domu Sztuki Ursynów w Warszawie
-
-.
