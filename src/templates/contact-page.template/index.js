@@ -21,11 +21,16 @@ function ContactPage({ data }) {
           {phone}
         </a>
       </div>
-      <GatsbyImage
-        image={getImage(image.childImageSharp.gatsbyImageData)}
-        alt="Contact"
-        className="w-2/3 md:w-11/12 mt-16 block mx-auto"
-      />
+      <div className="mt-16 flex justify-center">
+        <div className="w-2/3 md:w-11/12">
+          <GatsbyImage
+            image={getImage(image.childImageSharp.gatsbyImageData)}
+            alt="Contact"
+            className="w-full"
+            imgClassName="object-center"
+          />
+        </div>
+      </div>
     </Page>
   );
 }

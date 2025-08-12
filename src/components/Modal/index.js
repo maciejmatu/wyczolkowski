@@ -2,12 +2,30 @@ import React from "react";
 import { GatsbyImage, getImage, getSrc } from "gatsby-plugin-image";
 
 class Modal extends React.Component {
+  state = {
+    isFullLoaded: false,
+  };
   componentDidMount() {
     document.addEventListener("keydown", this.handleKeyDown);
   }
 
   componentWillUnmount() {
     document.removeEventListener("keydown", this.handleKeyDown);
+  }
+
+  componentDidUpdate(prevProps) {
+    const prevSrc =
+      prevProps.node?.frontmatter?.image?.publicURL ||
+      prevProps.node?.frontmatter?.image?.childImageSharp?.full;
+    const nextSrc =
+      this.props.node?.frontmatter?.image?.publicURL ||
+      this.props.node?.frontmatter?.image?.childImageSharp?.full;
+    if (prevSrc !== nextSrc) {
+      // new image incoming → reset loaded state so we can fade correctly
+      // using setState in componentDidUpdate is safe here because we gate on src change
+      // eslint-disable-next-line react/no-did-update-set-state
+      this.setState({ isFullLoaded: false });
+    }
   }
 
   handleKeyDown = (e) => {
@@ -51,6 +69,7 @@ class Modal extends React.Component {
               href={getSrc(frontmatter.image.childImageSharp.full)}
               target="_blank"
               rel="noreferrer"
+              key={frontmatter.image.publicURL}
             >
               {/* Placeholder thumb retains aspect ratio while original full image loads */}
               <GatsbyImage
@@ -59,6 +78,10 @@ class Modal extends React.Component {
                 image={getImage(frontmatter.image.childImageSharp.thumb)}
                 imgClassName="object-contain w-full h-full"
                 objectFit="contain"
+                imgStyle={{
+                  opacity: this.state.isFullLoaded ? 0 : 1,
+                  transition: "opacity 300ms ease",
+                }}
               />
               {/* Full-quality original loads only in modal */}
               <img
@@ -66,6 +89,11 @@ class Modal extends React.Component {
                 alt={frontmatter.title}
                 className="absolute inset-0 w-full h-full object-contain"
                 loading="eager"
+                style={{
+                  opacity: this.state.isFullLoaded ? 1 : 0,
+                  transition: "opacity 300ms ease",
+                }}
+                onLoad={() => this.setState({ isFullLoaded: true })}
               />
             </a>
           </div>
