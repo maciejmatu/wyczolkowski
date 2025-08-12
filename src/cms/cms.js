@@ -1,1 +1,1 @@
-import "netlify-cms";
+import "decap-cms-app";

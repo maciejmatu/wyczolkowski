@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;600&family=Playfair+Display:wght@400;500;600;700&display=swap");
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    @apply font-primary antialiased;
+  }
+
+  body {
+    @apply bg-white text-dark;
+  }
+
+  .font-secondary {
+    font-family: "Playfair Display", serif;
+  }
+}
+
+/* Subtle fade-in for Gatsby images without blur */
+.gatsby-image-wrapper img {
+  opacity: 0;
+  transition: opacity 400ms ease;
+}
+.gatsby-image-wrapper img[aria-hidden="true"] {
+  opacity: 0 !important; /* keep placeholder hidden */
+}
+.gatsby-image-wrapper img.gatsby-image-loaded,
+.gatsby-image-wrapper img[aria-hidden="true"] + img {
+  /* handle SSR swap */
+  opacity: 1;
+}
+
+/* React Image Lightbox overrides */
+.ril-caption.ril__caption {
+  @apply flex justify-center items-center bg-transparent h-20;
+}
+
+.ril__captionContent {
+  padding: 0 !important;
+}
+
+img.ril__image {
+  top: 80px;
+  left: 80px;
+  right: 80px;
+  bottom: 80px;
+}
