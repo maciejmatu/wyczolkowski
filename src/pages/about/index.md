@@ -18,9 +18,11 @@ W 2011 roku ukończyłem Łódzką politechnikę na wydziale Architektury. Studi
 * 2019 Wystawa poplenerowa w Muzeum Ziemiaństwa w pałacu w Dobrzycy
 * 2020 Wystawa poplenerowa w Iłowie
 * 2020 Wystawa poplenerowa w Muzeum Archeologicznym w Poznaniu
+* 2025 Wystawa rodzinna wraz z córkami: Heleną i Anielą w Gminnym Ośrodku Kultury w Klembowie
 
 **WYSTAWY INDYWIDUALNE:**
 
 * 2019 Wystawa w Ośrodku Kultury i Sportu w Zielonce
 * 2019 Wystawa w Bibliotece Na Poziomie  Filia nr 40 MBP w Lublinie
 * 2020 Wystawa w Domu Sztuki Ursynów w Warszawie
+* 2025 Wystawa w Naczelnym Sądzie Administracyjnym w Warszawie (Noc Muzeów 2025)
