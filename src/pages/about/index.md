@@ -17,17 +17,15 @@ W centrum moich zainteresowań znajduje się architektura, martwa natura oraz ab
 
 Dorobek wystawienniczy
 
-
-
 Wystawy indywidualne:
 
-2025: Naczelny Sąd Administracyjny w Warszawie (Noc Muzeów)
+\- 2025: Naczelny Sąd Administracyjny w Warszawie (Noc Muzeów)
 
-2020: Dom Sztuki Ursynów w Warszawie
+\- 2020: Dom Sztuki Ursynów w Warszawie
 
-2019: Biblioteka „Na Poziomie” (Filia nr 40 MBP) w Lublinie
+\- 2019: Biblioteka „Na Poziomie” (Filia nr 40 MBP) w Lublinie
 
-2019: Ośrodek Kultury i Sportu w Zielonce
+\- 2019: Ośrodek Kultury i Sportu w Zielonce
 
 
 
@@ -35,18 +33,16 @@ Wybrane wystawy zbiorowe i poplenerowe:
 
 Moje prace były prezentowane na wystawach w instytucjach kultury na terenie całego kraju, m.in. w 
 
-Muzeum Archeologicznym w Poznaniu (2020), 
+\- Muzeum Archeologicznym w Poznaniu (2020), 
 
-Muzeum Ziemiaństwa w Dobrzycy (2019), 
+\- Muzeum Ziemiaństwa w Dobrzycy (2019), 
 
-Muzeum Romantyzmu w Opinogórze (2018)  
+\- Muzeum Romantyzmu w Opinogórze (2018)  
 
-Muzeum Mazowieckim w Płocku (2018) 
+\- Muzeum Mazowieckim w Płocku (2018) 
 
-Pałacu w Chrzęsnem (2017)
+\- Pałacu w Chrzęsnem (2017)
 
-Pałacu w Wiechlicach (2016) 
-
-
+\- Pałacu w Wiechlicach (2016) 
 
 Szczególne miejsce w mojej najnowszej działalności zajmuje wystawa rodzinna (2025, GOK w Klembowie), gdzie miałem przyjemność eksponować prace wspólnie z moimi córkami, Heleną i Anielą.
