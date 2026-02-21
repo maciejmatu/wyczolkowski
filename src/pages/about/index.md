@@ -3,26 +3,50 @@ templateKey: about-page.template
 left_image: /img/wyczolkowski.jpg
 title: O mnie
 ---
-Urodziłem się w Warszawie w 1982 roku. Moja przygoda ze sztuką miała swój początek już we wczesnym dzieciństwie. Od najmłodszych lat obserwowałem mojego dziadka Witolda przy pracy twórczej. Dziadek malował pejzaże, kwiaty oraz portrety.  Wtedy już podejmowałem pierwsze próby przenoszenia emocji na papier przy użyciu pastel i tuszu. Eksperymentowałem też z linorytem i luksografią. Malarstwo było kolejnym, naturalnym etapem na mojej drodze poszukiwań.
+Urodziłem się w 1982 roku w Warszawie. Moja droga twórcza została zdefiniowana przez silne tradycje rodzinne – kształtowała ją bliskość pracowni dziadka, Witolda, oraz artystyczny dialog ze stryjem, Leszkiem Wyczółkowskim. Obserwowanie dziadka przy pracy nad malarstwem oraz mentorskie wsparcie stryja miało kluczowy wpływ na moją wrażliwość plastyczną i wybór własnej ścieżki ekspresji. Pierwsze próby zamykania emocji w formie wizualnej realizowałem za pomocą pasteli i tuszu oraz poprzez eksperymenty z grafiką warsztatową: linorytem oraz artystyczną techniką fotograficzną: luksografią.
 
-W 2011 roku ukończyłem Łódzką politechnikę na wydziale Architektury. Studia pomogły mi w obserwacji i analizie otoczenia, patrzenia perspektywicznego. Posługuję się farbami akrylowymi oraz olejnymi, często mieszam te dwie techniki. Jednak medium, którym jest olej sprawia mi najwięcej radości. Moje prace przedstawiają pejzaże, martwe natury, architekturę oraz abstrakcje ale to pejzaż jest najbliższy mojemu sercu.
+Kluczowym etapem mojego rozwoju był warsztat architektoniczny zdobyty na Wydziale Architektury Politechniki Łódzkiej (dyplom 2011). Studia te wyposażyły mnie w umiejętność analitycznego patrzenia na otoczenie, biegłość w operowaniu perspektywą oraz zrozumienie wzajemnych relacji bryły i światła. Te fundamenty do dziś silnie przenikają moją twórczość malarską.
 
-**WYSTAWY ZBIOROWE:**
+Swoje kompetencje artystyczne ugruntowałem na Akademii Sztuk Pięknych im. Eugeniusza Gepperta we Wrocławiu, kończąc w 2022 roku studia podyplomowe na kierunku Malarstwo. Doświadczenie to pozwoliło mi na pogłębienie świadomości warsztatowej oraz krystalizację własnego języka wypowiedzi.
 
-* 2016 Wystawa poplenerowa w pałacu w Wiechlicach
-* 2017 Wystawa poplenerowa w pałacu w Chrzęsnem
-* 2018 Wystawa poplenerowa w Muzeum Mazowieckim w Płocku
-* 2018 Wystawa poplenerowa w Muzeum Romantyzmu w Opinogórze
-* 2018 Wystawa poplenerowa w Jarosławcu
-* 2019 Wystawa poplenerowa w Domu Kultury w Łebie
-* 2019 Wystawa poplenerowa w Muzeum Ziemiaństwa w pałacu w Dobrzycy
-* 2020 Wystawa poplenerowa w Iłowie
-* 2020 Wystawa poplenerowa w Muzeum Archeologicznym w Poznaniu
-* 2025 Wystawa rodzinna wraz z córkami: Heleną i Anielą w Gminnym Ośrodku Kultury w Klembowie
+W praktyce posługuję się głównie techniką olejną i akrylową. To jednak farba olejna, ze względu na swoją szlachetność i plastyczność, daje mi największą satysfakcję twórczą. 
 
-**WYSTAWY INDYWIDUALNE:**
+W centrum moich zainteresowań znajduje się architektura, martwa natura oraz abstrakcja, jednak to pejzaż pozostaje motywem najbliższym mojemu sercu – traktuję go jako przestrzeń do zapisu nastroju i osobistej interpretacji natury.
 
-* 2019 Wystawa w Ośrodku Kultury i Sportu w Zielonce
-* 2019 Wystawa w Bibliotece Na Poziomie  Filia nr 40 MBP w Lublinie
-* 2020 Wystawa w Domu Sztuki Ursynów w Warszawie
-* 2025 Wystawa w Naczelnym Sądzie Administracyjnym w Warszawie (Noc Muzeów 2025)
+
+
+Dorobek wystawienniczy
+
+
+
+Wystawy indywidualne:
+
+2025: Naczelny Sąd Administracyjny w Warszawie (Noc Muzeów)
+
+2020: Dom Sztuki Ursynów w Warszawie
+
+2019: Biblioteka „Na Poziomie” (Filia nr 40 MBP) w Lublinie
+
+2019: Ośrodek Kultury i Sportu w Zielonce
+
+
+
+Wybrane wystawy zbiorowe i poplenerowe:
+
+Moje prace były prezentowane na wystawach w instytucjach kultury na terenie całego kraju, m.in. w 
+
+Muzeum Archeologicznym w Poznaniu (2020), 
+
+Muzeum Ziemiaństwa w Dobrzycy (2019), 
+
+Muzeum Romantyzmu w Opinogórze (2018)  
+
+Muzeum Mazowieckim w Płocku (2018) 
+
+Pałacu w Chrzęsnem (2017)
+
+Pałacu w Wiechlicach (2016) 
+
+
+
+Szczególne miejsce w mojej najnowszej działalności zajmuje wystawa rodzinna (2025, GOK w Klembowie), gdzie miałem przyjemność eksponować prace wspólnie z moimi córkami, Heleną i Anielą.
