@@ -1,11 +1,11 @@
 ---
 templateKey: painting-post.template
 date: 2026-08-05T11:27:00.000Z
-title: W pałcowych ogrodach jest takie miejsce...
-image: /img/70554613_959047491106839_5285704663641882624_n.jpg
+title: W pałcowych ogrodach jest takie miejsce... III
+image: /img/img_0043.jpg
 reserved: false
 sold: true
 copy: false
-measures: 35x50 cm
-description: Olej na płycie drewnianej / Oil on wooden board
+measures: 30x40 cm
+description: Olej na płótnie / Oil on canvas / 2026
 ---
